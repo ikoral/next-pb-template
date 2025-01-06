@@ -1,5 +1,5 @@
 # Use Node.js as base image for building Next.js
-FROM node:21-alpine AS nextjs-builder
+FROM node:22-alpine AS nextjs-builder
 
 WORKDIR /app
 
